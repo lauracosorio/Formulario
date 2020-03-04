@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Formulario de Encuesta CSS</title>
+    <title>Encuesta de satisfacción</title>
 </head>
 <body>
     <header class="header"><br>
-        <h1 id="title"> ¿CUÁNTO SABES DE CSS?</h1> 
-        <em><p id="description" class="">Gracias por tomarse el tiempo de llenar el siguiente formulario </p></em>
+        <h1 id="title"> ENCUESTA DE SATISFACCIÓN</h1> 
+        <center>
+        <em><h5 id="description" class="">Para realizar el seguimiento y la medición del grado de satisfacción de nuestros usuarios, <br> la Libreria Gran Colombiana realiza esta encuesta. No tardará más de cinco minutos en completarla.</h4></em>
+        </center>
     </header>
 
     <main class="main">
@@ -29,49 +31,65 @@
                     <input type="number" class="form-control is-invalid" name="age" id="number" min="15" max="80" placeholder="Edad" required>
                 </div>
                 <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
-                <b><label for="CSS" id="dropdown">¿Sabe qué significa CSS?</label></b> 
+                <b><label for="CSS" id="dropdown">¿Encontró fácilmente la información que buscaba en la página web</label></b> 
                     <select class="form-control" id="CSS">
-                        <option>Complete Style Sheets</option>
-                        <option>Continue Style Sheets</option>
-                        <option> Cascading Style Sheets</option>
+                        <option>Sí</option>
+                        <option>No</option>
+                        <option>No sabe, no responde</option>
                     </select>
                 </div>
                 <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
-                <b><label for="CSS1">¿Para qué sirve CSS?</label></b>
+                <b><label for="CSS1">La información suministrada en la página web sobre los libros y forma de adquisición es suficiente y útil.</label></b>
                     <section class="form-check" id="CSS1">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="Escoger" value="front.end">
                         <label class="form-check-label" for="defaultCheck1">
-                            Para describir el estilo de un documento HTML.
+                            Muy buena
                         </label>
                     </section>
                     <section class="form-check" id="CSS1">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="Escoger" value="front.end">
                         <label class="form-check-label" for="defaultCheck1">
-                            Para ser una etiqueta que compone la web semántica.
+                            Buena
                         </label>
                     </section>
                     <section class="form-check" id="CSS1">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="Escoger" value="front.end">
                         <label class="form-check-label" for="defaultCheck1">
-                            Para describir cómo deben mostrarse los elementos HTML.
+                            Regular
+                        </label>
+                    </section>
+                    <section class="form-check" id="CSS1">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="Escoger" value="front.end">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Mala
                         </label>
                     </section>
                 </div>
                 <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
-                    <b><label for="CSS2">En CSS las clases son estilos reutilizables que se pueden agregar a elementos HTML. Los nombres de las clases en CSS empiezan por: </b><br>
-                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="punto" checked> Punto (.) <br>
-                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="numeral">Numeral (#)
+                    <b><label for="CSS2">Grado de satisfacción, en pedidos por correo electrónico, en cuanto al tiempo de recepción y estado de los libros.</b><br>
+                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="punto" checked> Mucho <br>
+                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="numeral">Bueno <br>
+                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="punto"> Aceptable <br>
+                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="numeral"> Poco <br>
+                        <input type="radio" name="class-select" id="CSS2" class="input-radio" value="punto"> Muy poco
                     </label>
                 </div>
                 <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
-                    <b><label for="CSS3">En CSS Además de las clases, cada elemento HTML también puede tener un id atributo. Los nombres de los id en CSS empiezan por:</b><br>
-                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="punto" checked> Punto (.) <br>
-                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">Numeral (#) <br>
-                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">Asterisco (*)
+                    <b><label for="CSS3">¿Tiene pensado volver a utilizar este servicio? </b><br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="punto" checked> Sí <br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">No <br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">No sabe, no responde
                     </label>
                 </div>
                 <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
-                    <b><label for="CSS4">¿Qué te gustaría aprender sobre CSS?</b> </label>
+                    <b><label for="CSS3">¿Recomendaría este servicio a otra persona?  </b><br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="punto" checked> Sí <br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">No <br>
+                        <input type="radio" name="id-select" id="CSS3" class="input-radio" value="numeral">No sabe, no responde
+                    </label>
+                </div>
+                <div class="form-group col-4 col-sm-6 col-md-8 col-lg-10 col-xl-12">
+                    <b><label for="CSS4">Algún reclamo, queja, sujerencia o felicitación lo puede dejar aquí</b> </label>
                     <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Deje aquí su comentario..."required></textarea> 
                 </div>
                 <button type="button" class="btn btn-lg" id="submit">Enviar</button>

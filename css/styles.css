@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #c38fd8, #8edfe0);
+    background-image: url(/images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,34 +17,34 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;  
-    color: hsl(345, 95%, 25%);
+    color: hsl(35, 41%, 92%);
 }
 
-p {
+h5 {
     display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 1.2em;
-    color: hsl(345, 53%, 37%)
+    color: hsl(30, 42%, 95%)
 }
 
 div {
-    background-color: rgba(231, 158, 207, 0.596);
+    background-color: rgba(252, 248, 247, 0.247);
     border-radius: 5px;
-    color: hsl(345, 100%, 33%);
+    color: hsl(29, 81%, 13%);
     display: block;
     justify-content: center;
     }
 
 
 #submit {
-    background-color: hsl(345, 100%, 33%);
+    background-color: hsl(29, 81%, 13%);
     color: ivory;   
 }
 
 #submit:hover {
-    background-color:  hsl(345, 100%, 40%);
+    background-color:  hsl(29, 54%, 28%);
 }
 
 
